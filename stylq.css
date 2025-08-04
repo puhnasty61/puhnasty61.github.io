@@ -1,78 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-    background: #000;
-    color: #fff;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
-}
-
-.main-container {
-    width: 90%;
-    max-width: 800px;
+    background: black;
+    color: white;
+    font-family: Arial;
     text-align: center;
     padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 40px;
+    font-size: 48px;
     color: #c4ff00;
-    text-shadow: 0 0 10px rgba(196, 255, 0, 0.7);
-    letter-spacing: 2px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
+    margin-bottom: 40px;
 }
 
-.dialog-box {
+.dialog {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-bottom: 40px;
 }
 
-.avatar {
+.dialog img {
     width: 120px;
     height: 120px;
     border: 4px solid white;
     margin-right: 20px;
-    object-fit: cover;
 }
 
-.speech-bubble {
-    background: #000;
+.bubble {
     border: 4px solid white;
     padding: 20px;
-    max-width: 400px;
     text-align: left;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P';
     font-size: 14px;
-    line-height: 1.6;
+    max-width: 400px;
 }
 
-.info-section {
-    margin-top: 40px;
-}
-
-.info-title {
-    font-size: 1.5rem;
+h2 {
+    font-size: 24px;
     margin-bottom: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
 }
 
-.info-content {
+.info {
     border: 4px solid white;
     padding: 20px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
     text-align: left;
+    font-size: 16px;
     max-width: 600px;
     margin: 0 auto;
 }
