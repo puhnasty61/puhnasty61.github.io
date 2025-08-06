@@ -1,3 +1,4 @@
+```
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Press+Start+2P&display=swap');
 
 body {
@@ -39,7 +40,11 @@ h1 {
 }
 
 .info-box {
-    border: 1px solid white;
+    border: 4px solid white;
+    letter-spacing: 0.9rem;
+    font-weight: Bold;
+    display: flex;
+    justify-content: center;
     padding: 20px;
     margin: 20px auto;
     max-width: 500px;
