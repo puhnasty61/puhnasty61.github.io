@@ -31,7 +31,7 @@ h1 {
 .speech-text {
     font-family: 'Press Start 2P', cursive;
     font-size: 14px;
-    border: 4px solid white;
+    border: 3px solid white;
     padding: 20px;
     text-align: left;
     background-color: #000;
@@ -39,8 +39,7 @@ h1 {
 }
 
 .info-box {
-    border: 4px solid white;
-    letter-spacing: 0.9rem;
+    border: 1px solid rgb(67, 77, 56);
     padding: 20px;
     margin: 20px auto;
     max-width: 500px;
@@ -51,6 +50,11 @@ h1 {
 h2 {
     margin-top: 40px;
     margin-bottom: 15px;
+}
+
+.nature-img {
+   width: 383.5px;
+   height: 198.5px;
 }
 
 .short {
